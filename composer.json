@@ -1,0 +1,19 @@
+{
+    "name": "axgle/pgen",
+    "description": "php generator for myself",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "haohuoyao",
+            "email": "haohuoyao@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "pgen\\": "src"
+        },
+        "files": ["helper.php"]
+    }
+}
